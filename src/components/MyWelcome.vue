@@ -7,7 +7,7 @@
         </h1>
         <h2 class="subtitle">
           Esta es la página principal y sólo fue creada como
-          pretexto para poder utilizar vue-router para cambiar de páginas.
+          pretexto para poder utilizar vue-router y poder cambiar de páginas.
         </h2>
       </div>
     </div>
