@@ -9,6 +9,10 @@
           Esta es la página principal y sólo fue creada como
           pretexto para poder utilizar vue-router y poder cambiar de páginas.
         </h2>
+        <p>
+          El repositorio de esta app está
+          <a href="https://github.com/ederchrono/gdljs-vue" target="_blank">aquí</a>.
+        </p>
       </div>
     </div>
   </section>
