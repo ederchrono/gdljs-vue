@@ -30,7 +30,13 @@ export default {
   },
   methods: {
     saveTask () {
-      this.$emit('saveTask', this.task)
+      // validate that the input is not empty
+      const newTask = this.task.trim()
+      if(!newTask){
+        return
+      }
+
+      this.$emit('saveTask', newTask)
       this.task = ''
     }
   }
