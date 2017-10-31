@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="container">
-      <h1 class="title">To do</h1>
+      <h1 class="title">Mis tareas</h1>
       <h2 class="subtitle">
         Una simple app para hacer listas de tareas y
         mostrar las directivas más comunes de <strong>Vue.js</strong>

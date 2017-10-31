@@ -10,12 +10,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Welcome',
+      name: 'Bienvenido',
       component: MyWelcome
     },
     {
       path: '/todo',
-      name: 'TodoList',
+      name: 'Mis tareas',
       component: TodoList
     }
   ]
