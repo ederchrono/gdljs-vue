@@ -4,7 +4,7 @@
 
     <div class="field is-grouped">
 
-      <div class="control">
+      <div class="control task-input">
         <!--
           v-model sincroniza el input con la variable indicada
           -->
@@ -55,5 +55,8 @@ export default {
 <style scoped>
 .todo-form {
   margin-top: 40px;
+}
+.task-input {
+  max-width: calc(100% - 100px);
 }
 </style>
